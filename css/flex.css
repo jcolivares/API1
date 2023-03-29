@@ -1,0 +1,49 @@
+header, footer {
+    border: 1px solid red;
+    background-color: black;
+    color: white
+}
+
+#contenedor {
+    display: flex;
+    
+}
+
+h1{
+    font-family: "Oswald";
+}
+
+#componente {
+    display: flex;
+}
+
+#caja_color{
+    width: 640px;
+    height: 480px;
+    background-color: black;
+}
+
+#menu{
+    background-color: aquamarine;
+    display: flex;
+    /*flex-direction: column;
+    justify-content: flex-end;*/
+    justify-content: space-around;
+    /*width: 100%;*/
+}
+
+#controles{
+    display: flex;
+    /*flex-wrap: nowrap;*/
+}
+
+#mapa{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+}
+
+#sliders{
+    display: flex;
+    flex-direction: column;
+}

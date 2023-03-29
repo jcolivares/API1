@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Flexbox y APIs</title>
+    <link rel="stylesheet" href="css/flex.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="js/funciones.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+   <header id="encabezado">
+    <h1>Ejemplo de Flexbox y API de geolocalizacion</h1>
+    <hr>
+   </header> 
+ <div id="contenedor">
+    <aside id="lateral">
+        <div id="componente">
+            <label for="texto">Texto</label>
+            <input type="text" name="texto" id="texto">
+            <button type="button">Copiar</button>
+        </div>
+    </aside>
+    <main id="contenido">
+        <nav id="menu">
+            <a href="#">Opcion 1</a>
+            <a href="#mapa">Opcion 2</a>
+            <a href="index.html">Home</a>
+        </nav>
+        <div id="colores">
+            <form action="">
+                <section id="controles">
+                    <article id="sliders">
+                        <div id="c1">
+                            R:
+                            <input type="range" id="r" name="r" min="0" max="255" value="0">
+                        </div>
+                        <div id="c2">
+                        G: <input type="range" id="G" name="G" min="0" max="255" value="0">
+                        </div>
+                        <div id="c3">
+                        B: <input type="range" id="B" name="B" min="0" max="255" value="0">
+                        <span id="color_texto">#000000</span>
+                    </div>
+                    </article>
+                    <article id="caja_color">
+                    </article>
+                </section>
+            </form>
+        </div>
+        <div id="mapa"></div>
+    </main>
+</div> 
+   <footer id="pie">
+    <p>Derechos reservados</p>
+   </footer>
+</body>
+</html>
