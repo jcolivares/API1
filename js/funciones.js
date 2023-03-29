@@ -57,7 +57,7 @@ const posicionar = (pos) => {
     let longitud = pos.coords.longitude
     let centro = latitud+","+longitud
     
-    $("#mapa").html("<img src='https://maps.googleapis.com/maps/api/staticmap?center="+centro+"&zoom=14&size=600x400&key=AIzaSyBMgmukTiknCYLRuoT2WDUAPuM3xsXiRI4'>")
+    $("#mapa").html("<img src='https://maps.googleapis.com/maps/api/staticmap?center="+centro+"&zoom=14&size=600x400&key='>")
 }
 
 $(function(){   
